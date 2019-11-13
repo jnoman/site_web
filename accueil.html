@@ -1,0 +1,426 @@
+<html>
+    <head>
+        <title>developper trip</title>
+        <meta charset="utf-8"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#desktop").hover(
+                    function(){
+                    $("#desktop1").css('display','block');
+                }),
+                $("#desktop1").hover(
+                    function(){
+                    $("#desktop1").css('display','block');
+                });
+                $("#desktop").mouseleave(
+                    function(){
+                    $("#desktop1").css('display','none');
+                });
+                $("#desktop1").mouseleave(
+                    function(){
+                    $("#desktop1").css('display','none');
+                });
+                
+
+                $("#web").hover(
+                    function(){
+                    $("#web1").css('display','block');
+                }),
+                $("#web1").hover(
+                    function(){
+                    $("#web1").css('display','block');
+                });
+                $("#web").mouseleave(
+                    function(){
+                    $("#web1").css('display','none');
+                });
+                $("#web1").mouseleave(
+                    function(){
+                    $("#web1").css('display','none');
+                });
+
+
+                $("#mobile").hover(
+                    function(){
+                    $("#mobile1").css('display','block');
+                }),
+                $("#mobile1").hover(
+                    function(){
+                    $("#mobile1").css('display','block');
+                });
+                $("#mobile").mouseleave(
+                    function(){
+                    $("#mobile1").css('display','none');
+                });
+                $("#mobile1").mouseleave(
+                    function(){
+                    $("#mobile1").css('display','none');
+                });
+
+
+                $("#design").hover(
+                    function(){
+                    $("#design1").css('display','block');
+                }),
+                $("#design1").hover(
+                    function(){
+                    $("#design1").css('display','block');
+                });
+                $("#design").mouseleave(
+                    function(){
+                    $("#design1").css('display','none');
+                });
+                $("#design1").mouseleave(
+                    function(){
+                    $("#design1").css('display','none');
+                });
+            });
+        </script>
+        <style type="text/css">
+            body
+            {
+                background-attachment: fixed;
+            }
+            ul#connection li a:hover
+            {
+                background-color: rgb(80, 71, 71);
+            }
+            ul#connection li a {
+                color: white;
+            }
+            ul#connection li {
+                display:inline;
+            }
+            ul#connection
+            {
+                float: right;
+            }
+            #div_connection
+            {
+                overflow: hidden;
+                background-color: gray;
+            }
+            div#paragraphe
+            {
+                overflow: hidden;
+                background-color: #F8F8E5;
+                
+            }
+            div#paragraphe1
+            {
+                margin-left: 150px;
+                margin-right: 550px;
+                margin-top: 100px;
+                margin-bottom: 100px;
+            }
+            img#ship_img
+            {
+                width: 250px;
+                height: 250px;
+                position: absolute;
+                left: 1000px;
+                top: 100px;
+            }
+            ul#ul_menu li:hover
+            {
+                background-color: rgb(80, 71, 71);
+                color: white;
+            }
+            ul#ul_menu li {
+                display:inline;
+                color: black;
+                padding: 15px;
+                border-left: 3px solid black;
+                border-right:3px solid black;
+            }
+            ul#ul_menu
+            {
+                padding-left: 600px;
+            }
+            #div_menu
+            {
+                overflow: hidden;
+                background-color: rgb(231, 223, 223);
+            }
+            td:hover
+            {
+                background-color: rgba(0, 255, 34, 0.452);
+            }
+            td
+            {
+                text-align: center;
+                height: 50px;
+                width: 200px;
+                size: 20px;
+                color: rgba(0, 255, 34);
+                border: 1px solid green;
+            }
+            table 
+            {
+                border-collapse: collapse;
+            }
+            #table_menu
+            {
+                color: green;
+            }
+            #table_menu:hover
+            {
+                color: white;
+            }
+            #desktop1
+            {
+                position: absolute;
+                left: 683px;
+                top: 423px;
+                display: none;
+            }
+            #web1
+            {
+                position: absolute;
+                left: 780px;
+                top: 423px;
+                display: none;
+            }
+            #mobile1
+            {
+                position: absolute;
+                left: 840px;
+                top: 423px;
+                display: none;
+            }
+            #design1
+            {
+                position: absolute;
+                left: 930px;
+                top: 423px;
+                display: none;
+            }
+
+            #code_source
+            {
+                overflow: hidden;
+                background-color: rgba(228, 220, 220, 0.39);
+                position: absolute;
+                left: 250px;
+                top: 460px;
+            }
+            #code1
+            {
+                float: left;
+                height: 300px;
+                width: 340px;
+                border: 1px solid black;
+                margin: 30px;
+                text-align: center;
+            }
+            #imgcode
+            {
+                margin: 20px;
+                height: 200px;
+                width: 300px;
+            }
+            
+            #foot
+            {
+                overflow: hidden;
+                background-color: black;
+                font-size: 40px;
+                position: absolute;
+                top: 1700px;
+            }
+            #logo
+            {
+                width: 30px;
+                height: 30px;
+            }
+            #about
+            {
+                color: white;
+                width: 700px;
+                float: left;
+            }
+            #folower
+            {
+                width: 800px;
+                float: right;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="div_connection">
+            <ul id="connection" >
+                <li><a href="Connexion.html">connection</a></li>
+                <li><a href="Inscription.html">inscription</a></li>
+                <li><input type="search" placeholder="recherche"/></li>
+            </ul> 
+        </div>
+        <div id="paragraphe">
+            <div id="paragraphe1">
+                <h2>site developpertrip.com est le meilleur site pour ceux intéressés à apprendre les bases du développement de l'information</h2>
+                <p>Ce site vous permet d’apprendre tout ce dont vous avez besoin pendant votre voyage dans le monde de la programmation, 
+                    Y compris différents langages de programation et les logiciels.</p>
+            </div>
+            
+            <img src="ship.png" id="ship_img"/>
+        </div>
+        <div id="div_menu">
+            <ul id="ul_menu" >
+                <li id="home">Home</li>
+                <li id="desktop">Desktop</li>
+                <li id="web">Web</li>
+                <li id="mobile">Mobile</li>
+                <li id="design">Design</li>
+            </ul> 
+        </div>
+        <div id="desktop1">
+            <table>
+                <tr><td><a id="table_menu" href="#"> PYTHON </a></td></tr>
+                <tr><td><a id="table_menu" href="#"> C </a></td></tr>
+                <tr><td><a id="table_menu" href="#"> C++ </a></td></tr>
+                <tr><td><a id="table_menu" href="#"> C# </a></td></tr>
+                <tr><td><a id="table_menu" href="#"> SQL </a></td></tr>
+                <tr><td><a id="table_menu" href="#"> VISUAL STUDIO </a></td></tr>
+            </table>
+        </div>
+        <div id="web1">
+            <table>
+                    <tr><td><a id="table_menu" href="#"> HTML </a></td></tr>
+                    <tr><td><a id="table_menu" href="#"> CSS </a></td></tr>
+                    <tr><td><a id="table_menu" href="#"> PHP </a></td></tr>
+                    <tr><td><a id="table_menu" href="#"> PYTHON </a></td></tr>
+                    <tr><td><a id="table_menu" href="#"> C# </a></td></tr>
+                    <tr><td><a id="table_menu" href="#"> JAVASCRIPT </a></td></tr>
+                    <tr><td><a id="table_menu" href="#"> JQUERY </a></td></tr>
+                    <tr><td><a id="table_menu" href="#"> JSON </a></td></tr>
+                    <tr><td><a id="table_menu" href="#"> SQL </a></td></tr>
+                    <tr><td><a id="table_menu" href="#"> MYSQL </a></td></tr>
+                    <tr><td><a id="table_menu" href="#"> bootstrap </a></td></tr>
+                    <tr><td><a id="table_menu" href="#"> VISUAL STUDIO </a></td></tr>
+                    <tr><td><a id="table_menu" href="#"> PHPMYADMIN </a></td></tr>
+            </table>
+        </div>
+        <div id="mobile1">
+                <table>
+                        <tr><td><a id="table_menu" href="#"> JAVA </a></td></tr>
+                        <tr><td><a id="table_menu" href="#"> PYTHON </a></td></tr>
+                        <tr><td><a id="table_menu" href="#"> SQL LITE </a></td></tr>
+                        <tr><td><a id="table_menu" href="#"> ANDROID STUDIO </a></td></tr>
+                </table>
+        </div>
+        <div id="design1">
+            <table>
+                <tr><td><a id="table_menu" href="#"> PHOTOSHOP </a></td></tr>
+                <tr><td><a id="table_menu" href="#"> ILLUSTRATOR </a></td></tr>
+                <tr><td><a id="table_menu" href="#"> ADOBE INDESIGN </a></td></tr>
+            </table>
+        </div>
+        <div id="contenu">
+            <table>
+                <tr><td><a id="table_menu" href="#"> HTML </a></td></tr>
+                <tr><td><a id="table_menu" href="#"> CSS </a></td></tr>
+                <tr><td><a id="table_menu" href="#"> PHP </a></td></tr>
+                <tr><td><a id="table_menu" href="#"> JAVA </a></td></tr>
+                <tr><td><a id="table_menu" href="#"> PYTHON </a></td></tr>
+                <tr><td><a id="table_menu" href="#"> C </a></td></tr>
+                <tr><td><a id="table_menu" href="#"> C++ </a></td></tr>
+                <tr><td><a id="table_menu" href="#"> C# </a></td></tr>
+                <tr><td><a id="table_menu" href="#"> JAVASCRIPT </a></td></tr>
+                <tr><td><a id="table_menu" href="#"> JQUERY </a></td></tr>
+                <tr><td><a id="table_menu" href="#"> JSON </a></td></tr>
+                <tr><td><a id="table_menu" href="#"> SQL </a></td></tr>
+                <tr><td><a id="table_menu" href="#"> MYSQL </a></td></tr>
+                <tr><td><a id="table_menu" href="#"> SQL LITE </a></td></tr>
+                <tr><td><a id="table_menu" href="#"> bootstrap </a></td></tr>
+                <tr><td><a id="table_menu" href="#"> VISUAL STUDIO </a></td></tr>
+                <tr><td><a id="table_menu" href="#"> ANDROID STUDIO </a></td></tr>
+                <tr><td><a id="table_menu" href="#"> PHPMYADMIN </a></td></tr>
+                <tr><td><a id="table_menu" href="#"> PHOTOSHOP </a></td></tr>
+                <tr><td><a id="table_menu" href="#"> ILLUSTRATOR </a></td></tr>
+                <tr><td><a id="table_menu" href="#"> ADOBE INDESIGN </a></td></tr>
+                <tr><td><a id="table_menu" href="#"> GIT </a></td></tr>
+                <tr><td><a id="table_menu" href="#"> GITHUB </a></td></tr>
+            </table>
+            <div id="code_source">
+                <div id="code1">
+                    <img src="1.png" usemap="#m1" id="imgcode"/>
+                    <p>PhpRegister / Identification et de gestion des utilisateurs</p>
+                    <map name="m1">
+                        <area shape="rect" coords="0,0,200,400" href="https://codes-sources.commentcamarche.net/source/102482-phpregister-identification-et-de-gestion-des-utilisateurs">
+                    </map>
+                </div>
+                <div id="code1">
+                    <img src="2.png" usemap="#m2" id="imgcode"/>
+                    <p>Système de pagination en PHP et mysql.(+ espace membre)</p>
+                    <map name="m2">
+                        <area shape="rect" coords="0,0,200,400" href="https://codes-sources.commentcamarche.net/source/102480-systeme-de-pagination-en-php-et-mysql-espace-membre">
+                    </map>
+                </div>
+                <div id="code1">
+                    <img src="3.png" usemap="#m3" id="imgcode"/>
+                    <p>RosarioSIS - appli web Gestion Scolaire</p>
+                    <map name="m3">
+                        <area shape="rect" coords="0,0,200,400" href="https://codes-sources.commentcamarche.net/source/102449-rosariosis-appli-web-gestion-scolaire">
+                    </map>
+                </div>
+                <div id="code1">
+                    <img src="4.png" usemap="#m4" id="imgcode"/>
+                    <p>Résultats plus - système de gestion des résultats</p>
+                    <map name="m4">
+                        <area shape="rect" coords="0,0,200,400" href="https://codes-sources.commentcamarche.net/source/102448-resultats-plus-systeme-de-gestion-des-resultats">
+                    </map>
+                </div>
+                <div id="code1">
+                    <img src="5.png" usemap="#m5" id="imgcode"/>
+                    <p>ListBox personnalisé</p>
+                    <map name="m5">
+                        <area shape="rect" coords="0,0,200,400" href="https://codes-sources.commentcamarche.net/source/102879-listbox-personnalise">
+                    </map>
+                </div>
+                <div id="code1">
+                    <img src="6.png" usemap="#m6" id="imgcode"/>
+                    <p>Nombres aléatoires avec Blum Blum Shub</p>
+                    <map name="m6">
+                        <area shape="rect" coords="0,0,200,400" href="https://codes-sources.commentcamarche.net/source/102863-nombres-aleatoires-avec-blum-blum-shub">
+                    </map>
+                </div>
+                <div id="code1">
+                    <img src="7.png" usemap="#m7" id="imgcode"/>
+                    <p>Fenêtre ronde f</p>
+                    <map name="m7">
+                        <area shape="rect" coords="0,0,200,400" href="https://codes-sources.commentcamarche.net/source/101992-fenetre-ronde-f">
+                    </map>
+                </div>
+                <div id="code1">
+                    <img src="8.png" usemap="#m8" id="imgcode"/>
+                    <p>Calculatrice complète de windows</p>
+                    <map name="m8">
+                        <area shape="rect" coords="0,0,200,400" href="https://codes-sources.commentcamarche.net/source/101853-calculatrice-complete-de-windows">
+                    </map>
+                </div>
+                <div id="code1">
+                    <img src="9.png" usemap="#m9" id="imgcode"/>
+                    <p>Login tools</p>
+                    <map name="m9">
+                        <area shape="rect" coords="0,0,200,400" href="https://codes-sources.commentcamarche.net/source/101818-login-tools">
+                    </map>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div id="foot">
+            <div id="about">
+                <p>about</p>
+            </div>
+            <div id="folower">
+                
+                            <img src="fb.png" id="logo"/><a href="https://www.facebook.com/">facebook</a><br />
+                            <img src="inst.png" id="logo"/><a href="https://www.instagram.com/">instagram</a><br />
+                            <img src="tw.png" id="logo"/><a href="https://twitter.com/">twitter</a><br />
+                            <img src="yt.png" id="logo"/><a href="https://www.youtube.com/">youtube</a><br />
+            </div>
+        </div>
+    </body>
+</html>
